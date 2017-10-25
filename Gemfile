@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'popper_js', '~> 1.11.1'
+
 gem 'bootstrap', '4.0.0.alpha6'
 
 source 'https://rails-assets.org' do
@@ -47,6 +48,10 @@ gem 'simple_form'
 gem 'devise'
 
 gem 'carrierwave', '~> 1.0'
+
+gem "figaro"
+
+gem "fog-aws"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
